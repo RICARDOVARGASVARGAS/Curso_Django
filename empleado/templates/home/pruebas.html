@@ -1,0 +1,9 @@
+<h1>Listando desde la BD</h1>
+
+{% comment %} {{lista_prueba}} {% endcomment %}
+
+<ul>
+    {% for prueba in lista_prueba %}
+        <li>{{prueba.titulo}} - {{prueba.subtitulo}}</li>
+    {% endfor %}
+</ul>
